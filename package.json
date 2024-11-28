@@ -1,7 +1,7 @@
 {
   "name": "@codeonlyjs/ssg",
   "version": "0.0.1",
-  "description": "CodeOnly Static Site Generation Tools",
+  "description": "CodeOnly Static Site Helpers",
   "main": "index.js",
   "type": "module",
   "scripts": {},
