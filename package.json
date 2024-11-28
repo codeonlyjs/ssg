@@ -1,0 +1,27 @@
+{
+  "name": "@codeonlyjs/ssg",
+  "version": "0.0.1",
+  "description": "CodeOnly Static Site Generation Tools",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "author": "Topten Software",
+  "contributors": [
+    {
+      "name": "Brad Robinson",
+      "email": "contact@toptensoftware.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeonlyjs/ssg.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "glob": "^11.0.0",
+    "load-json-file": "^7.0.1",
+    "write-json-file": "^6.0.0",
+    "yaml": "^2.6.1"
+  }
+}
