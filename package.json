@@ -3,6 +3,14 @@
   "version": "0.0.1",
   "description": "CodeOnly Static Site Helpers",
   "main": "index.js",
+  "exports": {
+    "node": {
+      "import": "./index-node.js"
+    },
+    "default": {
+      "import": "./index.js"
+    }
+  },
   "type": "module",
   "scripts": {},
   "author": "Topten Software",
@@ -18,6 +26,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "commonmark": "^0.31.2",
     "front-matter": "^4.0.2",
     "glob": "^11.0.0",
     "load-json-file": "^7.0.1",
